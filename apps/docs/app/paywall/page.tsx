@@ -1,8 +1,8 @@
-import { PaywallAccordion } from "~/components/paywall/Accordion";
+import { PaywallAccordion } from "~/components/paywall/PaywallAccordion";
 import { PaywallTimer } from "~/components/paywall/Timer";
 import Tag from "~/components/shared/Tag";
 
-export default function PaywallPage() {
+const PaywallPage = () => {
   return (
     <>
       <PaywallTimer />
@@ -19,4 +19,6 @@ export default function PaywallPage() {
       </div>
     </>
   );
-}
+};
+
+export default PaywallPage;

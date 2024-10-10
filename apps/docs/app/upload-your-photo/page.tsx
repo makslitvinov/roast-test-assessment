@@ -1,11 +1,13 @@
 "use client";
-import Image from "next/image";
 
-import { Button } from "@repo/ui/components/ui/button";
+import Image from "next/image";
 import { useState } from "react";
 import Processing from "~/components/upload/Processing";
+import { Form } from "~/components/upload/Form";
+import { Progress } from "@repo/ui/components/ui/progress";
+import { Header } from "~/components/shared/Header";
 
-export default function UploadYourPhoto() {
+const UploadYourPhoto = () => {
   const [photo, setPhoto] = useState<File | null>(null);
 
   if (photo) {
@@ -13,7 +15,10 @@ export default function UploadYourPhoto() {
   }
 
   return (
-    <>
+    <div className="min-h-screen w-full overflow-scroll flex flex-col">
+      <Header backLink="/" />
+      <Progress value={25} />
+
       <main className="pt-8 flex flex-col px-4 flex-1">
         <header>
           <h1 className="text-4xl font-bold text-white not-italic">
@@ -77,18 +82,10 @@ export default function UploadYourPhoto() {
       </main>
 
       <footer className="w-full px-8 pb-4">
-        <Button asChild>
-          <label htmlFor="upload">
-            <input
-              id="upload"
-              type="file"
-              className="hidden"
-              onChange={(e) => setPhoto(e.target.files?.[0] ?? null)}
-            />
-            UPLOAD MY PHOTO
-          </label>
-        </Button>
+        <Form onFileUpload={setPhoto} />
       </footer>
-    </>
+    </div>
   );
-}
+};
+
+export default UploadYourPhoto;

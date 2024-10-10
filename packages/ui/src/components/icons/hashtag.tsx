@@ -13,8 +13,8 @@ export const IconHashtag = (props: SVGProps<SVGSVGElement>) => {
       <path
         d="M18.3636 8.0405L14.0756 13.1861C12.3764 15.2252 11.5268 16.2447 10.4091 16.2447C9.29137 16.2447 8.44177 15.2252 6.74257 13.1861L5.63635 11.8587"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
+        strokeWidth="2"
+        strokeLinecap="round"
       />
     </svg>
   );

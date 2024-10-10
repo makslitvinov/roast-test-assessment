@@ -4,7 +4,7 @@ import { Button } from "@repo/ui/components/ui/button";
 import Link from "next/link";
 import { PhotosBackground } from "~/components/shared/PhotosBackground";
 
-export default function Page() {
+const Page = () => {
   return (
     <div className="relative flex flex-col justify-end items-center h-screen w-screen bg-gradient-to-t from-black to-transparent bg-opacity-50 overflow-hidden">
       <PhotosBackground />
@@ -46,4 +46,6 @@ export default function Page() {
       </footer>
     </div>
   );
-}
+};
+
+export default Page;

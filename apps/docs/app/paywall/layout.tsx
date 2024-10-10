@@ -1,9 +1,10 @@
 import { IconCheck } from "@repo/ui/components/icons/check";
 import { Button } from "@repo/ui/components/ui/button";
+import { FC, PropsWithChildren } from "react";
 import { Header } from "~/components/shared/Header";
 import { PhotosBackground } from "~/components/shared/PhotosBackground";
 
-const Layout = ({ children }: { children: React.ReactNode }) => {
+const Layout: FC<PropsWithChildren> = ({ children }) => {
   return (
     <div className="relative min-h-screen max-w-screen overflow-hidden flex flex-col pb-[202px]">
       <PhotosBackground />

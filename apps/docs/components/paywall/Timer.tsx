@@ -25,6 +25,7 @@ export const PaywallTimer = () => {
 
     return () => clearInterval(interval);
   }, []);
+
   return (
     <div className="h-[37px] max-w-screen bg-orange-gradient px-4 flex items-center justify-between font-semibold">
       <p className="grow-0 w-10 relative font-medium text-lg uppercase">
