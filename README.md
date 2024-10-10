@@ -11,7 +11,7 @@ Made with Turborepo starter with shadcn/ui pre-configured.
 [bun version](https://github.com/dan5py/turborepo-shadcn-ui/tree/bun)
 
 ## Screencast
-https://github.com/user-attachments/assets/152e9d9f-34f0-470f-98f7-b4c9eed53d7c
+https://github.com/user-attachments/assets/41700f54-3925-4f51-a198-7873d7a19313
 
 
 ## Using this example
