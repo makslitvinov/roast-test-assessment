@@ -1,14 +1,18 @@
-# Turborepo starter with shadcn/ui
+# Roast Test Assessment
 
 ![Static Badge](https://img.shields.io/badge/shadcn%2Fui-0.8.0-blue?link=https%3A%2F%2Fgithub.com%2Fshadcn%2Fui)
 
-This is Turborepo starter with shadcn/ui pre-configured.
+Made with Turborepo starter with shadcn/ui pre-configured.
 
 > [!NOTE]
 > This example uses `pnpm` as package manager.
 
 [npm version](https://github.com/dan5py/turborepo-shadcn-ui/tree/npm)
 [bun version](https://github.com/dan5py/turborepo-shadcn-ui/tree/bun)
+
+## Screencast
+https://github.com/user-attachments/assets/152e9d9f-34f0-470f-98f7-b4c9eed53d7c
+
 
 ## Using this example
 
